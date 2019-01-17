@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Second Page";
+    Layout = null;
+}
+
+<h2>SecondPage</h2>
+
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item">
+            ViewBag value is: <b>@ViewBag.name</b>
+        </li>
+        <li class="list-group-item">
+            ViewData value is: <b>@ViewData["dataname"]</b>
+        </li>
+        <li class="list-group-item">
+            TempData value is: <b>@TempData["tempname"]</b>
+        </li>
+
+        <li class="list-group-item">
+            <a href="/Test/Index">Go to Second Page</a>
+        </li>
+
+    </ul>
+</div>
